@@ -26,7 +26,28 @@ You receive the following ticket from a customer:
 
 ### Question #1 response:
 
-_replace this with your response_
+Hi [Your Name],
+
+Thanks for reaching out to GitHub Support.
+
+I understand that you are having trouble adding a team to a repo using the GitHub API. I've reviewed the command you provided and I can see that you are missing ***permission attribute*** used to determine what permission is granted to the team. The permission property is required to add a team to a repo.
+
+The correct curl command would be:
+
+curl -H "Authorization: token BLAHBLAHBLAH" -H "Content-Type: application/json" -X put -d '{"permission":"pull"}' [https://hostname/api/v3/organizations/10/team/23/repos/jimmy/some-repo-name](https://hostname/api/v3/organizations/10/team/23/repos/jimmy/some-repo-name)
+
+This command will add the team ***23*** to the repo ***some-repo-name*** with the ***pull*** permission.
+
+I hope this helps! Let me know if you have any other questions.
+
+I have also added some a link to the rest API documentation for further clarification. This should help you to understand the request better and to troubleshoot the issue if you continue to have problems.
+
+(https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions)[https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions]
+
+I hope this helps! Let me know if you have any other questions.
+
+Thanks,
+Olumide Olowe
 
 ###Question 2
 
