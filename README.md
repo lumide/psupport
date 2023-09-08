@@ -26,7 +26,7 @@ You receive the following ticket from a customer:
 
 ### Question #1 response:
 
-Hi [Your Name],
+Hi,
 
 Thanks for reaching out to GitHub Support.
 
@@ -42,7 +42,7 @@ I hope this helps! Let me know if you have any other questions.
 
 I have also added some a link to the rest API documentation for further clarification. This should help you to understand the request better and to troubleshoot the issue if you continue to have problems.
 
-(https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions)[https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions]
+[https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions](https://docs.github.com/en/enterprise-server@3.10/rest/teams/teams?apiVersion=2022-11-28#add-or-update-team-project-permissions)
 
 I hope this helps! Let me know if you have any other questions.
 
